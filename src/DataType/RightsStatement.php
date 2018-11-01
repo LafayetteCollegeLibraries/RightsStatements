@@ -38,6 +38,22 @@ class RightsStatement extends Uri
             'Copyright Undetermined',
         'http://rightsstatements.org/vocab/NKC/1.0/' =>
             'No Known Copyright',
+        'http://creativecommons.org/publicdomain/mark/1.0/' =>
+            'Creative Commons Public Domain Mark 1.0',
+        'http://creativecommons.org/publicdomain/zero/1.0/' =>
+            'Creative Commons CC0 1.0 Universal',
+        'https://creativecommons.org/licenses/by/4.0/' =>
+            'Creative Commons BY Attribution 4.0 International',
+        'https://creativecommons.org/licenses/by-sa/4.0/' =>
+            'Creative Commons BY-SA Attribution-ShareAlike 4.0 International',
+        'https://creativecommons.org/licenses/by-nd/4.0/' =>
+            'Creative Commons BY-ND Attribution-NoDerivatives 4.0 International',
+        'https://creativecommons.org/licenses/by-nc/4.0/' =>
+            'Creative Commons BY-NC Attribution-NonCommercial 4.0 International',
+        'https://creativecommons.org/licenses/by-nc-nd/4.0/' =>
+            'Creative Commons BY-NC-ND Attribution-NonCommercial-NoDerivs 4.0 International',
+        'https://creativecommons.org/licenses/by-nc-sa/4.0/' =>
+            'Creative Commons BY-NC-SA Attribution-NonCommercial-ShareAlike 4.0 International',
     ];
 
     public function getName()
